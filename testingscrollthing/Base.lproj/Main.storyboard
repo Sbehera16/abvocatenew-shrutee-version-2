@@ -26,7 +26,7 @@
                         <segue destination="6Xw-VU-Yny" kind="relationship" relationship="viewControllers" id="pV9-fL-GUy"/>
                         <segue destination="vVv-3J-dem" kind="relationship" relationship="viewControllers" id="Mc7-3h-Scf"/>
                         <segue destination="beN-jK-V0N" kind="relationship" relationship="viewControllers" id="TIA-Sv-Gai"/>
-                        <segue destination="kC5-1H-3Rh" kind="relationship" relationship="viewControllers" id="agU-1z-RRS"/>
+                        <segue destination="fwO-qu-vW5" kind="relationship" relationship="viewControllers" id="8g3-dE-k1k"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OvR-bn-v1Z" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -518,55 +518,87 @@
             </objects>
             <point key="canvasLocation" x="-1875" y="724"/>
         </scene>
-        <!--View Controller-->
-        <scene sceneID="oPU-Wk-M2M">
+        <!--InfoPage-->
+        <scene sceneID="UC6-tO-fKO">
             <objects>
-                <viewController id="kC5-1H-3Rh" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="bG8-lC-XlT">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                <viewController title="InfoPage" id="fwO-qu-vW5" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="362-0s-4Ra">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="1340"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="      About Us" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="sjy-SD-BEM">
-                                <rect key="frame" x="0.0" y="44" width="414" height="24"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2022-08-03 at 2.40.28 PM" translatesAutoresizingMaskIntoConstraints="NO" id="J9o-Zb-C4K">
-                                <rect key="frame" x="-34" y="161" width="483" height="319"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="DR2-Tn-jeb">
-                                <rect key="frame" x="63" y="488" width="289" height="96"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <string key="text">Our brand, Abvocate is welcome to all. 
-We believe that reproductive rights 
-should be protected and this app helps 
-in providing this protection for all users.
-</string>
-                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
-                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="By: Shrutee, Valentina and Nayeli" textAlignment="justified" lineBreakMode="wordWrap" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="CY0-ff-IBt">
-                                <rect key="frame" x="89" y="592" width="237" height="96"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="15"/>
-                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="h32-iY-HPZ">
+                                <rect key="frame" x="0.0" y="44" width="414" height="1296"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FxH-dL-d8r" userLabel="twoView">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="1300"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="      About Us" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="gfh-ey-xo0">
+                                                <rect key="frame" x="0.0" y="0.0" width="414" height="24"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="We are Abvocate." translatesAutoresizingMaskIntoConstraints="NO" id="Vzb-YR-Sfu">
+                                                <rect key="frame" x="0.0" y="64" width="414" height="224"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="We are Abvocate. (1)" translatesAutoresizingMaskIntoConstraints="NO" id="u3I-Wu-Wwg">
+                                                <rect key="frame" x="0.0" y="296" width="414" height="224"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="We are Abvocate. (2)" translatesAutoresizingMaskIntoConstraints="NO" id="k4P-KJ-7kj">
+                                                <rect key="frame" x="0.0" y="528" width="414" height="224"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="We are Abvocate. (3)" translatesAutoresizingMaskIntoConstraints="NO" id="Nfr-ep-El7">
+                                                <rect key="frame" x="0.0" y="760" width="414" height="224"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="We are Abvocate. (4)" translatesAutoresizingMaskIntoConstraints="NO" id="N7f-GA-53w">
+                                                <rect key="frame" x="0.0" y="992" width="414" height="224"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2022-08-03 at 2.40.28 PM" translatesAutoresizingMaskIntoConstraints="NO" id="yI0-ZO-AMk">
+                                                <rect key="frame" x="96" y="181" width="109" height="107"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                        </subviews>
+                                        <color key="backgroundColor" red="1" green="0.79607843140000001" blue="0.79607843140000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="tintColor" red="1" green="0.99215686270000003" blue="0.87058823529999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="1300" id="c0N-g3-qsb"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="FxH-dL-d8r" secondAttribute="bottom" id="65U-Cd-kEv"/>
+                                    <constraint firstAttribute="trailing" secondItem="FxH-dL-d8r" secondAttribute="trailing" id="biw-fv-fby"/>
+                                    <constraint firstItem="FxH-dL-d8r" firstAttribute="leading" secondItem="h32-iY-HPZ" secondAttribute="leading" id="nhR-DK-Eth"/>
+                                    <constraint firstItem="FxH-dL-d8r" firstAttribute="top" secondItem="h32-iY-HPZ" secondAttribute="top" id="zLy-Uc-ZWm"/>
+                                </constraints>
+                            </scrollView>
                         </subviews>
-                        <viewLayoutGuide key="safeArea" id="tH4-P8-RcJ"/>
-                        <color key="backgroundColor" red="1" green="0.79607843137254897" blue="0.79607843137254897" alpha="1" colorSpace="calibratedRGB"/>
+                        <viewLayoutGuide key="safeArea" id="sf5-3K-VBi"/>
+                        <color key="backgroundColor" red="1" green="0.79607843140000001" blue="0.79607843140000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="h32-iY-HPZ" secondAttribute="bottom" id="DQe-4m-Ey2"/>
+                            <constraint firstItem="FxH-dL-d8r" firstAttribute="width" secondItem="362-0s-4Ra" secondAttribute="width" id="DTL-fh-j4O"/>
+                            <constraint firstItem="h32-iY-HPZ" firstAttribute="top" secondItem="sf5-3K-VBi" secondAttribute="top" id="muZ-gO-UQI"/>
+                            <constraint firstItem="h32-iY-HPZ" firstAttribute="trailing" secondItem="sf5-3K-VBi" secondAttribute="trailing" id="oiJ-g0-83O"/>
+                            <constraint firstItem="h32-iY-HPZ" firstAttribute="leading" secondItem="sf5-3K-VBi" secondAttribute="leading" id="tHX-lH-ETH"/>
+                        </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="" image="info.circle.fill" catalog="system" id="BCt-2l-4fC"/>
+                    <tabBarItem key="tabBarItem" title=" " image="info.circle" catalog="system" id="Op7-ui-RkC">
+                        <color key="badgeColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBarItem>
+                    <toolbarItems/>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                    <size key="freeformSize" width="414" height="1340"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="16i-0u-rUV" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="CpZ-9F-5ng" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1075.3623188405797" y="917.41071428571422"/>
+            <point key="canvasLocation" x="1085.5072463768117" y="-8.0357142857142847"/>
         </scene>
     </scenes>
     <resources>
@@ -574,7 +606,12 @@ in providing this protection for all users.
         <image name="Screen Shot 2022-08-03 at 2.19.55 PM" width="1184" height="512"/>
         <image name="Screen Shot 2022-08-03 at 2.20.09 PM" width="1184" height="512"/>
         <image name="Screen Shot 2022-08-03 at 2.40.28 PM" width="836" height="890"/>
-        <image name="info.circle.fill" catalog="system" width="128" height="121"/>
+        <image name="We are Abvocate." width="500" height="500"/>
+        <image name="We are Abvocate. (1)" width="500" height="500"/>
+        <image name="We are Abvocate. (2)" width="500" height="500"/>
+        <image name="We are Abvocate. (3)" width="500" height="500"/>
+        <image name="We are Abvocate. (4)" width="500" height="500"/>
+        <image name="info.circle" catalog="system" width="128" height="121"/>
         <image name="newspaper" catalog="system" width="128" height="111"/>
         <image name="paperplane.circle" catalog="system" width="128" height="121"/>
         <image name="person.circle.fill" catalog="system" width="128" height="121"/>

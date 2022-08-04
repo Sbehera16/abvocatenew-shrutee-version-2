@@ -16,7 +16,7 @@ class DonationPageController: UITableViewController {
         testTwo.articleLink = "https://wrrap.org/donate/"
         testTwo.image = "IMG_0940"
         let testThree = AddArticle()
-        testThree.articleLink = "https://www.weareplannedparenthood.org/onlineactions/2U7UN1iNhESWUfDs4gDPNg2?_ga=2.69621593.895029738.1659533675-44543167.1659533675"
+        testThree.articleLink = "https://secure.actblue.com/donate/naral-pro-choice-america-2?refcode=web_deadline_direct_20210101mainbtn"
         testThree.image = "IMG_0941"
         return [test, testTwo, testThree]
     }
